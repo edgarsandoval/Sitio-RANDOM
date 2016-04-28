@@ -1,0 +1,115 @@
+body
+{
+	background: #0FDDBF;
+}
+
+div.banner
+{
+	background-color: #222222;
+	color: #0FDDBF;
+	font-family: 'Karla';
+	font-weight: bold;
+	width: 100%;
+	overflow: auto;
+	font-size: 2em;
+	padding: 4em;
+}
+
+div.banner p.span
+{
+	color: #FFFFFF;
+	font-family: 'Bakery';
+	margin: .5em 0;
+	font-size: 5em;
+    font-weight: initial;
+}
+
+div.banner p:last-child
+{
+    transform: translate(9em, -1.5em);
+    -webkit-transform: translate(9em, -1.5em);
+    -moz-transform: translate(9em, -1.5em);
+    -o-transform: translate(9em, -1.5em);
+    -ms-transform: translate(9em, -1.5em);
+}
+
+form#redes-sociales
+{
+	background-color: #FFFFFF;
+	color: #222222;
+	font-family: 'Karla';
+	margin-top: -10em;
+    padding: 3em;
+    text-align: center;
+    overflow: auto;
+    text-transform: uppercase;
+}
+
+form p.title
+{
+	font-size: 3em;
+	margin-bottom: 2em;
+	font-family: 'Diamonds';
+}
+
+form label 
+{
+	letter-spacing: .5em;
+	font-size: 1.5em;
+}
+
+input[type="text"], input[type="email"],
+input[type="text"]:focus, input[type="email"]:focus
+{
+	width: 100%;
+	background: #0FDDBF;
+	border-radius: 0px;
+	border-color: #000000;
+	border-width: 1px;
+	box-shadow: none;
+	margin-top: .5em;
+	font-size: inherit;
+    color: #000;
+}
+
+button[type="submit"]
+{
+	margin-top: 3em;
+	font-size: 1.5em;
+	letter-spacing: .5em;
+	font-family: 'Karla';
+	background-color: #222222;
+}
+
+div.checkbox label
+{
+	letter-spacing: initial !important;
+	font-size: 1em !important;
+}
+
+p.info
+{
+    font-size: 2em;
+    font-family: 'Karla';
+    line-height: 1.5em;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 2em;
+}
+
+span.separador
+{
+    border-bottom: 5px solid #222222;
+    padding-right: 6em;
+}
+
+div.landing-image
+{
+	text-align: right;
+    transform: translate(30em, -10em);
+    -webkit-transform: translate(30em, -10em);
+    -moz-transform: translate(30em, -10em);
+    -o-transform: translate(30em, -10em);
+    -ms-transform: translate(30em, -10em);
+    position: absolute;
+}

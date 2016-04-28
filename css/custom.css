@@ -1,0 +1,450 @@
+a
+{
+	color: #FFFFFF !important;
+}
+
+.int-header h3
+{
+	font-family: 'Bakery' !important;
+	font-size: 150px;
+}
+
+.tp-rightarrow.default,
+.tp-leftarrow.default
+{
+	cursor: default !important;
+}
+
+#rev_slider_35_1
+{
+	webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+/* SHOWCASE */
+.showcase h2
+{
+	color: white !important;
+	font-size: 30px !important;
+	font-family: Piron !important;
+	letter-spacing: 13px !important;
+	margin: 2em 0;
+    text-transform: uppercase;
+}
+
+.showcase .portfolio-masonry li.triple
+{
+	width: 60%;
+}
+
+.showcase .portfolio-masonry li.half
+{
+	width: 50%;
+}
+
+.showcase .portfolio-masonry li.treinta
+{
+	width: 30%;
+}
+
+.showcase .portfolio .col-md-3
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.showcase .portfolio img
+{
+	max-width: 100%;
+}
+
+.bg-color-black
+{
+	background-color: rgba(0,0,0,0.6);
+}
+
+.bg-color-black div.inner
+{
+	font-family: 'Karla' !important;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+/* LITEBOX NAVIGATION */
+.navigation nav ul li a
+{
+	font-size: 40px;
+	letter-spacing: 30px;
+	font-family: Piron !important;
+}
+
+.navigation nav .dropdown-menu li a 
+{
+    font-family: Karla;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.navigation nav .dropdown-menu li a:hover
+{
+    letter-spacing: 3px!important;
+}
+
+.navigation nav .dropdown-menu li
+{
+    display: inline-block;
+    max-width: 180px;
+}
+
+ul.dropdown-menu
+{
+    position: relative !important;
+    float: none !important;
+}
+
+
+/* SLIDER */
+.slider h2
+{
+	font-size: 140px !important;
+	font-family: Bakery;
+}
+
+.slider h3
+{
+	font-size: 100px;
+	color: #fff;
+	font-family: Bakery;
+}
+
+.slider h5
+{
+	font-size: 30px !important;
+	font-family: Karla !important;
+	letter-spacing: 4px !important;
+	font-weight: bold;
+}
+
+.slider .descripcion
+{
+	background-color: rgba(255,255,255,.5);
+    padding: 5%;
+    width: 100vw;
+}
+
+.slider .descripcion h1
+{
+	font-family: Piron;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 23px;
+}
+
+/* WAVE AWARDS */
+.wave-awards h2
+{
+	text-transform: uppercase;
+	font-family: Piron;
+	font-weight: 100;
+	color: #222222;
+	font-size: 4rem;
+	margin-bottom: 10px;
+	position: relative;
+	letter-spacing: 4px;
+}
+
+
+/*no te enredes*/
+.no_te_enredes
+{
+	width: 100%;
+	float: left;
+	background:url('../images/sitio_random-no_te_enredes.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.no_te_enredes img
+{
+    margin: 9em 0;
+}
+
+/*certificados*/
+.certificados h2
+{
+	text-transform:uppercase;
+	font-family: Piron;
+	font-weight:100;
+	color: #222222;
+	font-size: 4rem;
+	margin-bottom: 10px; 
+	position: relative;
+	letter-spacing: 4px;
+	margin-top: 1em;
+}
+
+.certificados img
+{
+	max-width: 100%;
+	margin-bottom: 5em;
+}
+
+
+/* SERVICES LIST */
+.services-list
+{	
+	background: #222222;
+	margin-top: 100px;
+	padding: 0;
+}
+
+.services-list h2
+{ 
+	color: white;
+    font-size: 30px;
+    font-family: Piron;
+    letter-spacing: 13px;
+    margin: 2em 0; 
+    text-transform: uppercase;
+}
+
+.services-list h4
+{	
+	font-family: Piron;
+	font-weight: 100 !important;
+	color: #CEE415;
+	font-size: 2rem !important;
+	margin-bottom: 10px;
+}
+
+.services-list h4:after
+{
+	width: 102px !important;
+	background: #FFFFFF !important;
+	bottom: 53px !important;
+}
+
+.services-list p
+{
+	font-weight: 100 !important;
+	font-family: Karla;
+	color: white;
+}
+
+.services-list ul
+{
+	margin: 0 !important;
+}
+
+.services-list ul li
+{
+	font-weight: 100 !important;
+	font-family: Karla;
+	color:white;
+}
+
+.services-list ul li:before
+{
+	background : #FFFFFF !important;
+}
+
+section.services-list > div.container div.row
+{
+	margin-bottom: 3em;
+}
+
+/*Impacta Clientes*/
+.impacta-clientes .marca
+{
+	background-color: #0fddbf;
+}
+
+.impacta-clientes .clientes
+{
+	background-color: #f1af6d;
+}
+
+.impacta-clientes .padded
+{
+	padding: 5%;
+}
+
+.impacta-clientes .padded img
+{
+	max-width: 90%;
+}
+
+.impacta-clientes .padded h3
+{
+	font-family: Piron;
+	font-weight:100;
+	color: #fff;
+	font-size:2rem;
+	text-align: left;
+}
+
+a.landing,
+a.landing:hover,
+a.landing:focus
+{
+    background-color: transparent !important;
+    border-color: #FFFFFF !important;
+    border-width: 2px;
+    color: #FFFFFF !important;
+    font-family: 'Karla';
+    font-style: italic;
+}
+
+/* FOOTER */
+.footer-space
+{
+	height: 750px !important;
+}
+
+.social-footer
+{
+    background-image: url('../images/sub-footer.png');
+    background-repeat: round;
+    left: 0 !important;
+    position: fixed;
+    width: 100vw;
+    margin-top: 180px;
+}
+
+p.social-info
+{
+	font-family: 'Piron' !important;
+	color: #949398;
+	font-size: 2em;
+	line-height: 1em;
+	text-align: left;
+}
+
+p.social-info span
+{
+	color: #FFFFFF !important;
+	font-size: .8em;
+	line-height: 2em; 
+
+}
+
+input[type="email"],
+input[type="submit"]
+{
+	font-family: 'Karla' !important;
+    background: none;
+    margin-top: 15px;
+    font-size: .7em;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-width: 3px;
+}
+
+input[type="email"]
+{
+	width: 100%;
+}
+
+input[type="submit"]
+{
+	border-radius: 10px;
+    font-style: italic;
+}
+
+footer h3
+{
+	font-family: Diamonds !important;
+}
+
+footer
+{
+	height: 650px !important;
+}
+
+footer .sub-footer
+{
+    width: 100vw;
+    left: 0;
+    position: fixed;
+    margin-top: 410px;
+    border: none !important;
+    font-family: 'Piron' !important;
+}
+
+footer .sub-footer .copyright
+{
+	color: #949398;
+    font-size: 1em !important;
+}
+
+/* INSTA FEED */
+div#instafeed 
+{
+	max-height: 150px !important;
+	width: 100vw !important;
+	left: 0 !important;
+	position: fixed;
+	overflow: hidden;
+}
+
+div.title-box h2
+{
+	font-family: 'Bakery' !important;
+}
+
+
+/* Buscamos talento.css */
+
+.int-header.buscamos-talento
+{
+    background: url(../images/buscamos-talento/random-buscamos_talento.png) center no-repeat #94d6de;
+}
+
+p.title-talento
+{
+	font-family: 'Diamonds' !important;
+    color: #FFFFFF;
+    font-size: 2em;
+    line-height: 1em;
+    margin-top: 1.5em;
+}
+
+p.info-talento
+{
+	font-family: 'Karla' !important;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.contact-form.buscamos-talento input[type="text"],
+.contact-form.buscamos-talento select
+{
+	width: 50% !important;
+    margin: 0 25%;
+    max-width: none !important;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+form#buscamos-talento
+{
+	text-align: center;
+}
+
+form#buscamos-talento label
+{
+	font-family: 'Karla' !important;
+	letter-spacing: .3em;
+	margin-bottom: 1em;
+}

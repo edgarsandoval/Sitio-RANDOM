@@ -1,0 +1,54 @@
+img.gallery__img
+{
+    
+    height: initial !important;
+    margin-top: 0;
+}
+
+.gallery-wrap
+{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 50vw;
+}
+
+.gallery
+{
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.gallery__item
+{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.gallery__img
+{
+	display: block;
+}
+
+
+.gallery__controls
+{
+	margin-top: 10px;
+}
+
+.gallery__controls-prev
+{
+	cursor: pointer;
+	float: left;
+	transform: translate(0em, -10em);
+    -webkit-transform: translate(0em, -10em);
+}
+
+.gallery__controls-next
+{
+	cursor: pointer;
+	float: right;
+	transform: translate(0em, -10em);
+    -webkit-transform: translate(0em, -10em);
+}
