@@ -401,6 +401,12 @@ div.title-box h2
 	font-family: 'Bakery' !important;
 }
 
+.contact-form .error
+{
+    width: 100%;
+    color: red;
+}
+
 
 /* Buscamos talento.css */
 
@@ -443,6 +449,80 @@ form#buscamos-talento
 }
 
 form#buscamos-talento label
+{
+	font-family: 'Karla' !important;
+	letter-spacing: .3em;
+	margin-bottom: 1em;
+}
+
+
+
+button#submit, 
+a.input-file,
+a.input-file:hover,
+a.input-file:focus
+{
+    background-color: #000000;
+    border-radius: 5px;
+    font-family: 'Karla' !important;
+    font-weight: bold;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+    height: 40px;
+    margin: 0 1em;
+}
+
+
+/* Contacto.css */
+.int-header.contacto
+{
+    background: url(../images/contacto/random-contacto.png) center no-repeat #94d6de;
+}
+
+section.contact-info
+{
+	background-color: #222222;
+	color: #FFFFFF;
+	font-size: 1.3em;
+}
+
+.contact-info h3:after
+{
+    width: 150px !important;
+    height: 1px;
+    background: #FFFFFF !important;
+    right: 0 !important;
+    left: initial !important;
+}
+
+.contact-info h3
+{
+    color: #CFDE00 !important;
+    font-family: 'Piron' !important;
+}
+
+.contact-info .col-md-4
+{
+	text-align: right !important;
+}
+
+.contact-info img
+{
+	height: initial !important;
+	margin-top: 0 !important;
+}
+
+.contact-form textarea
+{
+	max-width: 50%; 
+}
+
+form#contact
+{
+	text-align: center;
+}
+
+form#contact label
 {
 	font-family: 'Karla' !important;
 	letter-spacing: .3em;

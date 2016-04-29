@@ -1,10 +1,10 @@
 // Google maps pin tooltip	
 	var markers = [
     	{
-       		"lat": '-22.9222972',
-           "lng": '-43.185657',
+       		"lat": '20.6889955',
+           "lng": '-103.4287867',
 		  
-			"description": 'CHOLA DIGITAL <br/><a href="http://www.acrocapoeira.com/chola" style="color:#ef3c3c; font-weight:800;">Get it now</a>'
+			"description": 'Sitio Random <br/><a href="http://www.acrocapoeira.com/chola" style="color:#ef3c3c; font-weight:800;"></a>'
         }
 	];
 	

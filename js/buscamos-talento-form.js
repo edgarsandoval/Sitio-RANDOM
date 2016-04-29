@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
                 required: true,
                 email: true
             },
-            telefono: {
+            numero: {
                 required: true,
                 minlength: 8
             },
@@ -38,8 +38,8 @@ jQuery(document).ready(function($) {
             email: {
                 required: "Por favor escribe un correo válido"
             },
-            telefono: {
-                required: "Escribre un numero, si no no podremos comunicarnos. :(",
+            numero: {
+                required: "Escribre un numero, sino no podremos comunicarnos. :(",
                 minlength: "Numero incorrecto"
             },
         },
