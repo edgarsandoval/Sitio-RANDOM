@@ -407,6 +407,23 @@ div.title-box h2
     color: red;
 }
 
+form#newsletter label.error
+{
+    font-size: 0.5em;
+    margin: 0;
+    color: red;
+    position: fixed;
+    transform: translate(1em, 1.5em);
+}
+
+
+#news-success,
+#news-error
+{
+	display: none;
+	position: absolute;
+    transform: translate(0em, -9em);
+}
 
 /* Buscamos talento.css */
 

@@ -737,11 +737,20 @@
             </div>
 
             <div class="col-md-3" style="padding: 4em;">
-              <p class="social-info">
-                Suscripción<br>
-                <input type="email" name="email" placeholder="E-mail"><br>
-                <input type="submit" value="Suscribirse">
-              </p>
+              <form id="newsletter" name="contact" method="post">
+                <p class="social-info">
+                    Suscripción<br>
+                    <input type="email" name="email" placeholder="E-mail"><br>
+                    <input type="submit" value="Suscribirse">
+                </p>
+              </form>
+              <div id="news-success" class="alert alert-success" role="alert">
+                <p>¡Te has suscrito a nuestro newsletter! por favor, confirma en tu correo.</p>
+              </div>
+              <!-- end success -->
+              <div id="news-error" class="alert alert-danger" role="alert">
+                <p>Algo salió mal, intenta refrescar la página y llena el formulario de nuevo.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -784,7 +793,10 @@
 	});
 })(jQuery)
 </script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.form.js"></script> 
+<script src="js/jquery.validate.min.js"></script> 
+<script src="js/forms/newsletter.js"></script> 
 <script src="js/waypoints.min.js"></script> 
 <script src="js/jquery.counterup.min.js"></script> 
 <script src="js/jquery.textrotater.js"></script> 
