@@ -41,6 +41,11 @@ a
 	width: 60%;
 }
 
+.showcase .portfolio-masonry li.quarter
+{
+	width: 25%;
+}
+
 .showcase .portfolio-masonry li.half
 {
 	width: 50%;
