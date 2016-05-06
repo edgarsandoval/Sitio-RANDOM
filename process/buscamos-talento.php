@@ -11,11 +11,23 @@ $mensaje = "";
 
 foreach ($_REQUEST as $key => $value)
 {
+	if($key == 'archivo' || $key == 'cv')
+		continue;
+
 	$mensaje .= ucfirst($key) . ' : ' . $value . '\r\n'; 
 }
 
 $email->Body = $mensaje;
-$email->AddAddress('talento@sitiorandom.com');
+$email->AddAddress('edgar@sitiorandom.com');
 
-$file = 'PATH_OF_YOUR_FILE_HERE';
+$file = $_REQUEST['archivo'];
+
+$nombre_archivo = $_REQUEST['area'] . '_' . $_REQUEST['nombre'] . '_' . rand(0, 10) . '.' . explode('.', $file)[0];
+
+$email->addAttachment($file, $nombre_archivo);
+
+//echo $email->Send() ? "true" : "false";
+
+    echo mail('edgar@sitiorandom', 'prueba', 'prueba') ? "true" : "false" ;
+
 ?>

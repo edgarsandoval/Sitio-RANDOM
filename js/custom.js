@@ -20,5 +20,14 @@ userFeed.run();
 			event.preventDefault();
 			return;
 		});
+
+		$('.contact-form input[type="text"]').keyup(function(event)
+		{
+			$(this).val($(this).val().toUpperCase());
+		});
+
+		$('.contact-form input[type="text"]').change(function(event) {
+			$(this).val($(this).val().toUpperCase());
+		});
 	});
 })(jQuery);

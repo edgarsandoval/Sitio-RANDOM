@@ -430,6 +430,12 @@ form#newsletter label.error
     transform: translate(0em, -9em);
 }
 
+
+#file-error
+{
+	display: none;
+}
+
 /* Buscamos talento.css */
 
 .int-header.buscamos-talento

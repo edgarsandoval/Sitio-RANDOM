@@ -1,14 +1,16 @@
 <?php
 //upload.php
 
-$nombre_archivo = $_FILES["archivo"]["name"];
+$upload_folder = '../uploads';
 
-$tipo_archivo = $_FILES["archivo"]["type"];
+$nombre_archivo = $_FILES['archivo']['name'];
 
-$tamano_archivo = $_FILES["archivo"]["size"];
+$tipo_archivo = $_FILES['archivo']['type'];
 
-$tmp_archivo = $_FILES["archivo"]["tmp_name"];
+$tamano_archivo = $_FILES['archivo']['size'];
 
-$archivador = $nombre_archivo;
+$tmp_archivo = $_FILES['archivo']['tmp_name'];
 
-echo move_uploaded_file($tmp_archivo, $archivador) ? "true" : "false";
+$archivador = $upload_folder . '/' . $nombre_archivo;
+
+echo move_uploaded_file($tmp_archivo, $archivador) ? $nombre_archivo : 'false';

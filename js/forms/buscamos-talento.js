@@ -47,8 +47,9 @@ jQuery(document).ready(function($) {
             $(form).ajaxSubmit({
                 type:"POST",
                 data: $(form).serialize(),
-                url:"process.php",
-                success: function() {
+                url:"process/buscamos-talento.php",
+                success: function(response) {
+                    console.log(response);
                     $('#contact :input').attr('disabled', 'disabled');
                     $('#contact').fadeTo( "slow", 0.15, function() {
                         $(this).find(':input').attr('disabled', 'disabled');
