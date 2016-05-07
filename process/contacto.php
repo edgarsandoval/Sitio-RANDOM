@@ -8,7 +8,7 @@ $email->SMTPDebug = 1;
 
 $email->From = 'no-reply@sitiorandom.com';
 $email->FromName  = 'Sitio Random';
-$email->Subject   = '¡Nuevo posible talento encontrado!';
+$email->Subject   = 'Formulario de Contacto' . $_REQUEST['asunto'];
 
 $mensaje = "";
 
@@ -22,12 +22,6 @@ foreach ($_REQUEST as $key => $value)
 
 $email->Body = $mensaje;
 $email->AddAddress('edgar@sitiorandom.com');
-
-$file = '../uploads/' . $_REQUEST['archivo'];
-
-$nombre_archivo = $_REQUEST['area'] . '_' . $_REQUEST['nombre'] . '_' . rand(0, 10) . '.' . explode('.', $file)[0];
-
-$email->addAttachment($file, $nombre_archivo);
 
 echo $email->Send() ? "true" : "false";
 

@@ -15,12 +15,6 @@ userFeed.run();
 			event.preventDefault();
 		});
 
-		$('#rev_slider_35_1').click(function(event)
-		{
-			event.preventDefault();
-			return;
-		});
-
 		$('.contact-form input[type="text"]').keyup(function(event)
 		{
 			$(this).val($(this).val().toUpperCase());

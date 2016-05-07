@@ -41,6 +41,7 @@ form#ux
 	font-family: 'Karla';
 	margin-top: -10em;
     padding: 3em;
+    padding-bottom: 0;
     text-align: center;
     overflow: auto;
     text-transform: uppercase;
@@ -71,6 +72,7 @@ input[type="text"]:focus, input[type="email"]:focus
 	margin-top: .5em;
 	font-size: inherit;
     color: #000;
+	text-transform: uppercase;
 }
 
 button[type="submit"]
@@ -114,4 +116,16 @@ div.landing-image
     -o-transform: translate(30em, -10em);
     -ms-transform: translate(30em, -10em);
     position: absolute;
+}
+
+label.error
+{
+    font-size: .8em;
+    color: red;
+}
+
+#success,
+#error
+{
+	display: none;
 }

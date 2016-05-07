@@ -39,6 +39,15 @@
     <![endif]-->
 </head>
 <body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PJQDLG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJQDLG');</script>
+<!-- End Google Tag Manager -->
 <div class="loading">
   <div class="loader">
     <h2 class="loading-text cd-headline clip is-full-width"> <span class="cd-words-wrapper"> <b class="is-visible">Espera</b> <b>Creando cosas increíbles...</b></span> </h2>
@@ -89,11 +98,21 @@
 				<div class="form-group">
               		<button id="submit" type="submit" name="submit">DESCARGAR</button>
             	</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="mas-info"> DESCARGAR MÁS INFO GENIAL CÓMO ESTA
-					</label>
+            	<div class="form-group">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="mas-info"> DESCARGAR MÁS INFO GENIAL CÓMO ESTA
+						</label>
+					</div>
+            	</div>
+				<div id="success" class="alert alert-success" role="alert">
+				<p>¡Gracias por llenar el formulario, el contenido se mostrará en breve!</p>
 				</div>
+				<!-- end success -->
+				<div id="error" class="alert alert-danger" role="alert">
+				<p>Algo salió mal, intenta refrescar la página y llena el formulario de nuevo.</p>
+				</div>
+				<!-- end error -->
 			</form>
 		</div>
 	</div>
@@ -112,7 +131,10 @@
 	});
 })(jQuery)
 </script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.form.js"></script> 
+<script src="js/jquery.validate.min.js"></script> 
+<script src="js/forms/redes-sociales.js"></script> 
 <script src="js/waypoints.min.js"></script> 
 <script src="js/jquery.counterup.min.js"></script> 
 <script src="js/jquery.textrotater.js"></script> 

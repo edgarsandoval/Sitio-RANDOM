@@ -171,7 +171,7 @@ ul.dropdown-menu
 {
 	width: 100%;
 	float: left;
-	background:url('../images/sitio_random-no_te_enredes.png') no-repeat center center fixed; 
+	background:url('../images/sitio_random-no_te_enredes.png') no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -352,6 +352,7 @@ input[type="submit"]
     color: #FFFFFF;
     border-color: #FFFFFF;
     border-width: 3px;
+    text-transform: uppercase;
 }
 
 input[type="email"]
@@ -436,11 +437,61 @@ form#newsletter label.error
 	display: none;
 }
 
+.service-description
+{
+	background-color: rgba(211,211,211, .7);
+	height: 70em;
+	padding: 0 10em;
+	padding-top: 35%;
+}
+
+
+.service-description p.service-title
+{
+	font-size: 3em;
+    letter-spacing: 0.3em;
+}
+
+.service-description p
+{
+    color: #222222 !important;
+    padding: 0;
+    text-align: justify;
+    font-family: 'Karla' !important;
+}
+
+h3.service-header
+{
+	padding-top: 2em;
+}
+
+/* Branding.css */
+.int-header.branding
+{
+    background: url(../images/branding/random-branding.jpg) center no-repeat #D3D3D3;
+    margin: 0;
+}
+
+/* Diseño.css */
+.int-header.diseno
+{
+    background: url(../images/diseño/random-diseño.png) center no-repeat #D3D3D3;
+    margin: 0;
+}
+
+/* Social Media.css */
+.int-header.social-media
+{
+    background: url(../images/social-media/random-social_media.png) center no-repeat #D3D3D3;
+    margin: 0;
+}
+
+
 /* Buscamos talento.css */
 
 .int-header.buscamos-talento
 {
-    background: url(../images/buscamos-talento/random-buscamos_talento.png) center no-repeat #94d6de;
+    background: url(../images/buscamos-talento/random-buscamos_talento.png) center no-repeat #D3D3D3;
 }
 
 p.title-talento
@@ -504,7 +555,7 @@ a.input-file:focus
 /* Contacto.css */
 .int-header.contacto
 {
-    background: url(../images/contacto/random-contacto.png) center no-repeat #94d6de;
+    background: url(../images/contacto/random-contacto.png) center no-repeat #D3D3D3;
 }
 
 section.contact-info
@@ -542,7 +593,8 @@ section.contact-info
 
 .contact-form textarea
 {
-	max-width: 50%; 
+	max-width: 50%;
+	font-family: 'Karla';
 }
 
 form#contact

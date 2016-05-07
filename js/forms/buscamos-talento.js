@@ -50,15 +50,15 @@ jQuery(document).ready(function($) {
                 url:"process/buscamos-talento.php",
                 success: function(response) {
                     console.log(response);
-                    $('#contact :input').attr('disabled', 'disabled');
-                    $('#contact').fadeTo( "slow", 0.15, function() {
+                    $('#buscamos-talento :input').attr('disabled', 'disabled');
+                    $('#buscamos-talento').fadeTo( "slow", 0.15, function() {
                         $(this).find(':input').attr('disabled', 'disabled');
                         $(this).find('label').css('cursor','default');
                         $('#success').fadeIn();
                     });
                 },
                 error: function() {
-                    $('#contact').fadeTo( "slow", 0.15, function() {
+                    $('#buscamos-talento').fadeTo( "slow", 0.15, function() {
                         $('#error').fadeIn();
                     });
                 }
