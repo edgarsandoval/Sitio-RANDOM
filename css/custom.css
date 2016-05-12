@@ -18,11 +18,11 @@ a
 #rev_slider_35_1
 {
 	webkit-touch-callout: none;
-     -webkit-user-select: none;
-     -khtml-user-select: none;
-     -moz-user-select: none;
-     -ms-user-select: none;
-     user-select: none;
+	 -webkit-user-select: none;
+	 -khtml-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
 }
 
 /* SHOWCASE */
@@ -33,7 +33,7 @@ a
 	font-family: Piron !important;
 	letter-spacing: 13px !important;
 	margin: 2em 0;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .showcase .portfolio-masonry li.triple
@@ -58,8 +58,8 @@ a
 
 .showcase .portfolio .col-md-3
 {
-    padding-right: 0;
-    padding-left: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .showcase .portfolio img
@@ -91,26 +91,26 @@ a
 
 .navigation nav .dropdown-menu li a 
 {
-    font-family: Karla;
-    font-size: 1em;
-    letter-spacing: 1px;
+	font-family: Karla;
+	font-size: 1em;
+	letter-spacing: 1px;
 }
 
 .navigation nav .dropdown-menu li a:hover
 {
-    letter-spacing: 3px!important;
+	letter-spacing: 3px!important;
 }
 
 .navigation nav .dropdown-menu li
 {
-    display: inline-block;
-    max-width: 180px;
+	display: inline-block;
+	max-width: 180px;
 }
 
 ul.dropdown-menu
 {
-    position: relative !important;
-    float: none !important;
+	position: relative !important;
+	float: none !important;
 }
 
 
@@ -139,17 +139,17 @@ ul.dropdown-menu
 .slider .descripcion
 {
 	background-color: rgba(255,255,255,.5);
-    padding: 5%;
-    width: 100vw;
+	padding: 5%;
+	width: 100vw;
 }
 
 .slider .descripcion h1
 {
 	font-family: Piron;
-    color: #222222;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 23px;
+	color: #222222;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 23px;
 }
 
 /* WAVE AWARDS */
@@ -180,7 +180,7 @@ ul.dropdown-menu
 
 section.no_te_enredes img
 {
-    margin: 9em 0;
+	margin: 9em 0;
 }
 
 /*certificados*/
@@ -215,11 +215,11 @@ section.no_te_enredes img
 .services-list h2
 { 
 	color: white;
-    font-size: 30px;
-    font-family: Piron;
-    letter-spacing: 13px;
-    margin: 2em 0; 
-    text-transform: uppercase;
+	font-size: 30px;
+	font-family: Piron;
+	letter-spacing: 13px;
+	margin: 2em 0; 
+	text-transform: uppercase;
 }
 
 .services-list h4
@@ -301,12 +301,12 @@ a.landing,
 a.landing:hover,
 a.landing:focus
 {
-    background-color: transparent !important;
-    border-color: #FFFFFF !important;
-    border-width: 2px;
-    color: #FFFFFF !important;
-    font-family: 'Karla';
-    font-style: italic;
+	background-color: transparent !important;
+	border-color: #FFFFFF !important;
+	border-width: 2px;
+	color: #FFFFFF !important;
+	font-family: 'Karla';
+	font-style: italic;
 }
 
 /* FOOTER */
@@ -317,12 +317,12 @@ a.landing:focus
 
 .social-footer
 {
-    background-image: url('../images/sub-footer.png');
-    background-repeat: round;
-    left: 0 !important;
-    position: fixed;
-    width: 100vw;
-    margin-top: 180px;
+	background-image: url('../images/sub-footer.png');
+	background-repeat: round;
+	left: 0 !important;
+	position: fixed;
+	width: 100vw;
+	margin-top: 180px;
 }
 
 p.social-info
@@ -346,13 +346,13 @@ input[type="email"],
 input[type="submit"]
 {
 	font-family: 'Karla' !important;
-    background: none;
-    margin-top: 15px;
-    font-size: .7em;
-    color: #FFFFFF;
-    border-color: #FFFFFF;
-    border-width: 3px;
-    text-transform: uppercase;
+	background: none;
+	margin-top: 15px;
+	font-size: .7em;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-width: 3px;
+	text-transform: uppercase;
 }
 
 input[type="email"]
@@ -363,7 +363,7 @@ input[type="email"]
 input[type="submit"]
 {
 	border-radius: 10px;
-    font-style: italic;
+	font-style: italic;
 }
 
 footer h3
@@ -378,18 +378,18 @@ footer
 
 footer .sub-footer
 {
-    width: 100vw;
-    left: 0;
-    position: fixed;
-    margin-top: 410px;
-    border: none !important;
-    font-family: 'Piron' !important;
+	width: 100vw;
+	left: 0;
+	position: fixed;
+	margin-top: 410px;
+	border: none !important;
+	font-family: 'Piron' !important;
 }
 
 footer .sub-footer .copyright
 {
 	color: #949398;
-    font-size: 1em !important;
+	font-size: 1em !important;
 }
 
 /* INSTA FEED */
@@ -409,17 +409,17 @@ div.title-box h2
 
 .contact-form .error
 {
-    width: 100%;
-    color: red;
+	width: 100%;
+	color: red;
 }
 
 form#newsletter label.error
 {
-    font-size: 0.5em;
-    margin: 0;
-    color: red;
-    position: fixed;
-    transform: translate(1em, 1.5em);
+	font-size: 0.5em;
+	margin: 0;
+	color: red;
+	position: fixed;
+	transform: translate(1em, 1.5em);
 }
 
 
@@ -428,7 +428,7 @@ form#newsletter label.error
 {
 	display: none;
 	position: absolute;
-    transform: translate(0em, -9em);
+	transform: translate(0em, -9em);
 }
 
 
@@ -441,23 +441,25 @@ form#newsletter label.error
 {
 	background-color: rgba(211,211,211, .7);
 	height: 70em;
-	padding: 0 10em;
-	padding-top: 35%;
+	padding: 0 6vw;
+	padding-top: 35vh;
 }
 
 
 .service-description p.service-title
 {
 	font-size: 3em;
-    letter-spacing: 0.3em;
+	letter-spacing: 0.3em;
+	line-height: 1em;
+	text-align: center;
 }
 
 .service-description p
 {
-    color: #222222 !important;
-    padding: 0;
-    text-align: justify;
-    font-family: 'Karla' !important;
+	color: #222222 !important;
+	padding: 0;
+	text-align: justify;
+	font-family: 'Karla' !important;
 }
 
 h3.service-header
@@ -468,22 +470,22 @@ h3.service-header
 /* Branding.css */
 .int-header.branding
 {
-    background: url(../images/branding/random-branding.jpg) center no-repeat #D3D3D3;
-    margin: 0;
+	background: url(../images/branding/random-branding.png) center no-repeat #D3D3D3;
+	margin: 0;
 }
 
 /* Diseño.css */
 .int-header.diseno
 {
-    background: url(../images/diseño/random-diseño.png) center no-repeat #D3D3D3;
-    margin: 0;
+	background: url(../images/diseño/random-diseño.png) center no-repeat #D3D3D3;
+	margin: 0;
 }
 
 /* Social Media.css */
 .int-header.social-media
 {
-    background: url(../images/social-media/random-social_media.png) center no-repeat #D3D3D3;
-    margin: 0;
+	background: url(../images/social-media/random-social_media.png) center no-repeat #D3D3D3;
+	margin: 0;
 }
 
 
@@ -491,16 +493,16 @@ h3.service-header
 
 .int-header.buscamos-talento
 {
-    background: url(../images/buscamos-talento/random-buscamos_talento.png) center no-repeat #D3D3D3;
+	background: url(../images/buscamos-talento/random-buscamos_talento.png) center no-repeat #D3D3D3;
 }
 
 p.title-talento
 {
 	font-family: 'Diamonds' !important;
-    color: #FFFFFF;
-    font-size: 2em;
-    line-height: 1em;
-    margin-top: 1.5em;
+	color: #FFFFFF;
+	font-size: 2em;
+	line-height: 1em;
+	margin-top: 1.5em;
 }
 
 p.info-talento
@@ -515,11 +517,11 @@ p.info-talento
 .contact-form.buscamos-talento select
 {
 	width: 50% !important;
-    margin: 0 25%;
-    max-width: none !important;
-    font-family: 'Karla';
-    text-transform: uppercase;
-    padding: 0 15px;
+	margin: 0 25%;
+	max-width: none !important;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	padding: 0 15px;
 }
 
 form#buscamos-talento
@@ -541,21 +543,21 @@ a.input-file,
 a.input-file:hover,
 a.input-file:focus
 {
-    background-color: #000000;
-    border-radius: 5px;
-    font-family: 'Karla' !important;
-    font-weight: bold;
-    letter-spacing: .2em;
-    font-size: 1.2em;
-    height: 40px;
-    margin: 0 1em;
+	background-color: #000000;
+	border-radius: 5px;
+	font-family: 'Karla' !important;
+	font-weight: bold;
+	letter-spacing: .2em;
+	font-size: 1.2em;
+	height: 40px;
+	margin: 0 1em;
 }
 
 
 /* Contacto.css */
 .int-header.contacto
 {
-    background: url(../images/contacto/random-contacto.png) center no-repeat #D3D3D3;
+	background: url(../images/contacto/random-contacto.png) center no-repeat #D3D3D3;
 }
 
 section.contact-info
@@ -567,17 +569,17 @@ section.contact-info
 
 .contact-info h3:after
 {
-    width: 150px !important;
-    height: 1px;
-    background: #FFFFFF !important;
-    right: 0 !important;
-    left: initial !important;
+	width: 150px !important;
+	height: 1px;
+	background: #FFFFFF !important;
+	right: 0 !important;
+	left: initial !important;
 }
 
 .contact-info h3
 {
-    color: #CFDE00 !important;
-    font-family: 'Piron' !important;
+	color: #CFDE00 !important;
+	font-family: 'Piron' !important;
 }
 
 .contact-info .col-md-4

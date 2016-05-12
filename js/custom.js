@@ -10,7 +10,7 @@ userFeed.run();
 	{
 		$('.swipebox').removeClass('swipebox');
 
-		$('.inner').click(function(event)
+		$('li figure a').click(function(event)
 		{	
 			event.preventDefault();
 		});

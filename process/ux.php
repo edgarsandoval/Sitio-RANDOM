@@ -1,6 +1,7 @@
 <?php
 
 require_once('../classes/PHPMailer/PHPMailerAutoload.php');
+require_once('../classes/ReCAPTCHA/php/recaptchalib.php');
 
 if(isset($_REQUEST['mas-info']))
 {
@@ -31,6 +32,16 @@ if(isset($_REQUEST['mas-info']))
 
 	curl_close($ch);
 }
+
+/* Validación Google ReCAPTCHA */
+$secret = "6Ldyqh8TAAAAAEVbLKQi3saMFtcEch8GmgqzaJSP";
+
+$response = null;
+
+$reCaptcha = new ReCaptcha($secret);
+
+$response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $_POST["g-recaptcha-response"]);
+/**/
 
 $email = new PHPMailer();
 

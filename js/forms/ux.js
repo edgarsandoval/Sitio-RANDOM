@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
 // Contact form
 	$(function() {
 	$("#ux").validate({
+        ignore: ".ignore",
     	rules: {
             nombre: {
                 required: true
@@ -17,6 +18,16 @@ jQuery(document).ready(function($) {
             compañia: {
                 required: true,
             },
+            "hiddenRecaptcha": {
+                 required: function() {
+                    console.log("this");
+                    if(grecaptcha.getResponse() == '') {
+                        return true;
+                     } else {
+                        return false;
+                     }
+                 }
+            }
         },
 		messages: {
             nombre:
@@ -33,6 +44,9 @@ jQuery(document).ready(function($) {
             compañia: {
                 required: "Llena este campo, por favor",
             },
+            "hiddenRecaptcha": {
+                required: "reCAPTCHA no válido",
+            }
         },
 		submitHandler: function(form) {
             $(form).ajaxSubmit({

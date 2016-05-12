@@ -52,6 +52,7 @@ form p.title
 	font-size: 3em;
 	margin-bottom: 2em;
 	font-family: 'Diamonds';
+	line-height: 1em;
 }
 
 form label 
@@ -128,4 +129,10 @@ label.error
 #error
 {
 	display: none;
+}
+
+.g-recaptcha
+{
+	display: inline-block;
+	margin: 1em 0;
 }

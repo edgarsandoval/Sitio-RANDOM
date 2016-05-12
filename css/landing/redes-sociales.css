@@ -51,6 +51,7 @@ form p.title
 	font-size: 3em;
 	margin-bottom: 2em;
 	font-family: 'Diamonds';
+	line-height: 1em;
 }
 
 form label 
@@ -71,6 +72,7 @@ input[type="text"]:focus, input[type="email"]:focus
 	margin-top: .5em;
 	font-size: inherit;
     color: #000;
+    text-transform: uppercase;
 }
 
 button[type="submit"]
@@ -126,4 +128,10 @@ label.error
 {
 	display: none;
 	overflow: auto;
+}
+
+.g-recaptcha
+{
+	display: inline-block;
+	margin: 1em 0;
 }
