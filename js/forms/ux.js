@@ -54,6 +54,7 @@ jQuery(document).ready(function($) {
                 data: $(form).serialize(),
                 url:"process/ux.php",
                 success: function(response) {
+                    window.open('docs/landing/Infografia_RANDOM_UX.pdf', '_blank');
                     $('#ux :input').attr('disabled', 'disabled');
                     $(this).find(':input').attr('disabled', 'disabled');
                     $(this).find('label').css('cursor','default');

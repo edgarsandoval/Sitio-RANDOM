@@ -337,7 +337,7 @@ p.social-info
 p.social-info span
 {
 	color: #FFFFFF !important;
-	font-size: .8em;
+	font-size: 1vw;
 	line-height: 2em; 
 
 }
@@ -477,7 +477,16 @@ h3.service-header
 /* Diseño.css */
 .int-header.diseno
 {
-	background: url(../images/diseño/random-diseño.png) center no-repeat #D3D3D3;
+	background: url(../images/diseno/random-diseno.png) center no-repeat #D3D3D3;
+	margin: 0;
+}
+
+
+/* Fotografía.css */
+
+.int-header.fotografia
+{
+	background: url(../images/fotografia/random-fotografia.png) center no-repeat #D3D3D3;
 	margin: 0;
 }
 
@@ -488,6 +497,13 @@ h3.service-header
 	margin: 0;
 }
 
+/* Programación.css */
+
+.int-header.programacion
+{
+	background: url(../images/programacion/random-programacion.png) center no-repeat #D3D3D3;
+	margin: 0;
+}
 
 /* Buscamos talento.css */
 
@@ -495,6 +511,33 @@ h3.service-header
 {
 	background: url(../images/buscamos-talento/random-buscamos_talento.png) center no-repeat #D3D3D3;
 }
+
+/* Video.css */
+
+.int-header.video
+{
+	background: url(../images/video/random-video.png) center no-repeat #D3D3D3;
+	margin: 0;
+}
+
+/* Animación.css */
+
+.int-header.animacion
+{
+	background: url(../images/animacion/random-animacion.png) center no-repeat #D3D3D3;
+	margin: 0;
+}
+
+/* Posicionamiento Web.css */
+
+.int-header.posicionamiento-web
+{
+	background: url(../images/posicionamiento-web/random-posicionamiento-web.png) center no-repeat #D3D3D3;
+	margin: 0;
+}
+
+
+
 
 p.title-talento
 {

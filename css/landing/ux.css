@@ -129,6 +129,7 @@ label.error
 #error
 {
 	display: none;
+	overflow: auto;
 }
 
 .g-recaptcha

@@ -21,7 +21,7 @@ foreach ($_REQUEST as $key => $value)
 }
 
 $email->Body = $mensaje;
-$email->AddAddress('edgar@sitiorandom.com');
+$email->AddAddress('sandy@sitiorandom.com');
 
 echo $email->Send() ? "true" : "false";
 
