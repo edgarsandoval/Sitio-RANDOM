@@ -1,7 +1,7 @@
 <?php
 
-require_once('../classes/PHPMailer/PHPMailerAutoload.php');
-require_once('../classes/ReCAPTCHA/php/recaptchalib.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/PHPMailer/PHPMailerAutoload.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/ReCAPTCHA/php/recaptchalib.php');
 
 if(isset($_REQUEST['mas-info']))
 {
@@ -49,24 +49,26 @@ $email->SMTPDebug = 1;
 
 $email->From = 'no-reply@sitiorandom.com';
 $email->FromName  = 'Sitio Random';
-$email->Subject   = '¡Nueva Entrada - Formulario Redes Sociales!';
+$email->Subject   = '¡Nueva Entrada - Formulario UX!';
 
 $mensaje = "";
 
 foreach ($_REQUEST as $key => $value)
 {
-	if($key == 'mas-info')
+	if($key == 'mas-info' || $key == 'g-recaptcha-response')
 		continue;
 
-	$mensaje .= ucfirst($key) . ' : ' . $value . '\r\n'; 
+	$mensaje .= '<strong>' . ucfirst($key) . ' : </strong>' . $value . '<br>'; 
 }
 
 $email->Body = $mensaje;
-$email->AddAddress('edgar@sitiorandom.com');
+$email->IsHTML(true);
+$email->AddAddress('edgars@sitiorandom.com');
 
 $send = $email->Send();
 
 echo $send ? "true" : "false" ;
+
 
 ?>
 

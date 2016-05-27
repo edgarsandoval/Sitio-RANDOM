@@ -20,7 +20,6 @@ jQuery(document).ready(function($) {
             },
             "hiddenRecaptcha": {
                  required: function() {
-                    console.log("this");
                     if(grecaptcha.getResponse() == '') {
                         return true;
                      } else {
@@ -54,6 +53,7 @@ jQuery(document).ready(function($) {
                 data: $(form).serialize(),
                 url:"process/redes-sociales.php",
                 success: function(response) {
+                    window.open('docs/landing/Infografia_RANDOM_redes_sociales.pdf', '_blank');
                     $('#redes-sociales :input').attr('disabled', 'disabled');
                     $(this).find(':input').attr('disabled', 'disabled');
                     $(this).find('label').css('cursor','default');

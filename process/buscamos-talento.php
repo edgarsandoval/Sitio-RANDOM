@@ -1,6 +1,6 @@
 <?php
 
-require_once('../classes/PHPMailer/PHPMailerAutoload.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/PHPMailer/PHPMailerAutoload.php');
 
 $email = new PHPMailer();
 

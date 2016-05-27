@@ -1,7 +1,7 @@
 <?php
 
-require_once('../classes/PHPMailer/PHPMailerAutoload.php');
-require_once('../classes/ReCAPTCHA/php/recaptchalib.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/PHPMailer/PHPMailerAutoload.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/classes/ReCAPTCHA/php/recaptchalib.php');
 
 if(isset($_REQUEST['mas-info']))
 {
@@ -55,13 +55,14 @@ $mensaje = "";
 
 foreach ($_REQUEST as $key => $value)
 {
-	if($key == 'mas-info')
+	if($key == 'mas-info' || $key == 'g-recaptcha-response')
 		continue;
 
-	$mensaje .= ucfirst($key) . ' : ' . $value . '\r\n'; 
+	$mensaje .= '<strong>' . ucfirst($key) . ' : </strong>' . $value . '<br>'; 
 }
 
 $email->Body = $mensaje;
+$email->IsHTML(true);
 $email->AddAddress('edgars@sitiorandom.com');
 
 $send = $email->Send();

@@ -1,7 +1,7 @@
 <?php
 //upload.php
 
-$upload_folder = '../uploads';
+$upload_folder = $_SERVER['DOCUMENT_ROOT'] . '/uploads';
 
 $nombre_archivo = $_FILES['archivo']['name'];
 
